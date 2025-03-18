@@ -1,0 +1,56 @@
+.profile {
+  width: 360px;
+  border: 2px solid #1e1823;
+  border-radius: 15px;
+  background-color: #fff;
+  overflow: hidden;
+  font-size: 18px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.img {
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  background-color: #1e1823;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.info {
+  padding: 20px;
+  color: grey;
+}
+
+.name {
+  margin: 10px;
+  color: #1e1823;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.stats {
+  display: flex;
+  background-color: rgb(200, 196, 196);
+  border-top: 2px solid #635c5c;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 15px;
+  text-align: center;
+}
+
+.view {
+  composes: category;
+  border-right: 2px solid #635c5c;
+  border-left: 2px solid #635c5c;
+}
+
+.value {
+  font-weight: bold;
+  font-size: 22px;
+}

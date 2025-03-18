@@ -1,0 +1,20 @@
+.img {
+  width: 160px;
+}
+
+.name {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.is-online {
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: green;
+}
+
+.is-offline {
+  composes: is-online;
+  color: red;
+}

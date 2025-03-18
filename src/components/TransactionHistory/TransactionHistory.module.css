@@ -1,0 +1,23 @@
+.table {
+  margin: 0 auto;
+  text-align: center;
+  border-collapse: collapse;
+  margin-top: 25px;
+}
+
+.head {
+  background-color: rgb(1, 1, 1);
+  color: whitesmoke;
+  font-size: 24px;
+}
+
+.body tr:nth-child(even) {
+  background-color: silver;
+}
+
+.table th,
+.table td {
+  border: 2px solid rgb(32, 26, 26);
+  padding: 15px 60px;
+  font-size: 18px;
+}
