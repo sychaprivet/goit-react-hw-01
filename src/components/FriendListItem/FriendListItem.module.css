@@ -1,0 +1,36 @@
+.friend {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Центрування контенту в картці */
+  background-color: #fff;
+  padding: 20px;
+  border: 2px solid #000; /* Чорна рамка навколо кожної картки */
+  border-radius: 10px;
+  width: 100px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.avatar {
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+}
+
+.status {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}

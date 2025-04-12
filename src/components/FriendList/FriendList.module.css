@@ -1,0 +1,6 @@
+.friendList {
+  display: flex;
+  justify-content: center; /* Центрування списку */
+  gap: 20px; /* Відстань між картками */
+  margin-top: 80px;
+}
